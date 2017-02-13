@@ -1,12 +1,12 @@
-# PHP Title Case Generator
+# PHP Rhythmic Ping Pong
 
-#### _A webpage that capitalizes titles, 13 February 2017_
+#### _A webpage that returns numbers and ping pong with rhythm, 13 February 2017_
 
 #### By _**Erica Wright & Carlos Munoz Kampff**_
 
 ## Description
 
-This webpage will allow the user to enter a title and will display it capitalized.
+A webpage that returns numbers and ping pong with rhythm.
 
 ## Setup/Installation Requirements
 
@@ -19,10 +19,8 @@ This webpage will allow the user to enter a title and will display it capitalize
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Enter a word | "peanut" | "Peanut" |
-| Enter multiple words | "peanut butter" | "Peanut Butter" |
-| Enter multiple words with prepositions | "peanut butter and jelly" | "Peanut Butter and Jelly" |
-| Enter Scottish word | "macduff" | "MacDuff" |
+| Count to 2 | 2 | 1, 2 |
+
 
 ## Known Bugs
 
