@@ -29,6 +29,30 @@
             //Assert
             $this->assertEquals([1,2,"Ping!"], $result);
         }
+        function test_count_to_five()
+        {
+            //Arrange
+            $test_Game = new Game;
+            $input = 5;
+
+            //Act
+            $result = $test_Game->countTo($input);
+
+            //Assert
+            $this->assertEquals([1,2,"Ping!",4,"Pong!"], $result);
+        }
+        function test_count_to_fifteen()
+        {
+            //Arrange
+            $test_Game = new Game;
+            $input = 15;
+
+            //Act
+            $result = $test_Game->countTo($input);
+
+            //Assert
+            $this->assertEquals([1,2,"Ping!",4,"Pong!", "Ping!", 7, 8, "Ping!","Pong!",11,"Ping!",13,14,"Ping-Pong!"], $result);
+        }
     }
 
 

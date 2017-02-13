@@ -21,6 +21,8 @@ A webpage that returns numbers and ping pong with rhythm.
 |--------|-----|------|
 | 1) Count to 2 | 2 | 1, 2 |
 | 2) Count to 3 but return "Ping!" for 3 |  3 | 1,2,"Ping!"|
+| 3) Count to 5 but return "Ping!" for 3 and "Pong!" for 5 |  5 | 1,2,"Ping!",4,"Pong!"|
+| 4) Count to 15 but return "Ping!" for 3 and multiples and "Pong!" for 5 and multiples and "Ping-Pong!" for 15 | 15| 1,2,"Ping!",4,"Pong!", "Ping!", 7, 8, "Ping!","Pong!",11,"Ping!",13,14,"Ping-Pong!"|
 
 
 
