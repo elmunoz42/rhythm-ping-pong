@@ -17,6 +17,18 @@
             //Assert
             $this->assertEquals([1,2], $result);
         }
+        function test_count_to_three()
+        {
+            //Arrange
+            $test_Game = new Game;
+            $input = 3;
+
+            //Act
+            $result = $test_Game->countTo($input);
+
+            //Assert
+            $this->assertEquals([1,2,"Ping!"], $result);
+        }
     }
 
 

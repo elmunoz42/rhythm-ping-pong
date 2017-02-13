@@ -19,7 +19,9 @@ A webpage that returns numbers and ping pong with rhythm.
 
 |Behavior|Input|Output|
 |--------|-----|------|
-| Count to 2 | 2 | 1, 2 |
+| 1) Count to 2 | 2 | 1, 2 |
+| 2) Count to 3 but return "Ping!" for 3 |  3 | 1,2,"Ping!"|
+
 
 
 ## Known Bugs
